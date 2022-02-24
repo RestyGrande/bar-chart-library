@@ -81,7 +81,7 @@ Barchart.prototype.preapareData = function (){
     chart.verticalAxisWidth = chart.height -2 * chart.verticalMargin
     chart.horizontalAxisWidth = chart.width -2 * chart.horizontalMargin
 
-    chart.verticalUpperBound = Math.ceil(chart.maxVal/ 10) * 10
+    chart.verticalUpperBound = Math.ceil(chart.maxVal/ 100) * 100
     chart.verticalLabelFreq = chart.verticalUpperBound / chart.itemsNum
     chart.horizontalLabaelFreq = chart.horizontalAxisWidth / chart.itemsNum
 
